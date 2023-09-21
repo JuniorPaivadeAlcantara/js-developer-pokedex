@@ -1,0 +1,109 @@
+.modalDetails .pokemon .detail .types .type {
+    font-size: 1rem;
+}
+
+.modalDetails .pokemon .detail .types {
+    display: flex;
+    flex-direction: row;
+}
+
+.modalDetails .pokemon .detail {
+    display: inline-block;
+}
+
+.modalDetails .pokemon .detail .nameNumber {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+}
+
+dialog::backdrop {
+    background-color: #616161;
+    opacity: 90%;
+}
+
+.modalDetails {
+    background-color: #77c850;
+    margin: auto auto;
+    padding: 0;
+    border-radius: 2rem;
+    width: 25rem;
+    border-style: none;
+}
+
+section.pokemon {
+    width: auto;
+    height: auto;
+}
+
+.modalDetails .pokemon .detail .number {
+    color: #fff;
+    font-size: 1.1rem;
+    opacity: 100;
+}
+
+.abas {
+    background-color: #fff;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.abas .navigation {
+    padding-top: 3rem;
+    text-align: center;
+}
+
+.abas .navigation a {
+    display: inline-block;
+    padding: .5rem;
+    font-size: .825rem;
+}
+
+.abas p {
+    display: flex;
+    flex-direction: row;
+}
+
+.abas div {
+    padding: 1rem;
+    display: none;
+}
+
+.abas div:target {
+    display: block;
+}
+
+#botaoFechar {
+    border-radius: 50%;
+    border-style: none;
+    font-size: 1.25rem;
+    margin: 2rem;
+    opacity: 60%;
+    color:#1b4d05;
+    position: absolute;
+    right: 0;
+}
+
+::-webkit-scrollbar {
+    visibility: hidden;
+}
+
+.photo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    margin-bottom: -2rem;
+    z-index: 3;
+    height: auto;
+    width: 12rem;
+}
+
+.cardColor{
+    flex-direction: column;
+    display: flex;
+}
